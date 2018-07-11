@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tituloStory" />
+        
+        <EditText
+            android:id="@+id/edtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+        <LinearLayout
+            android:id="@+id/corpoStory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interessadoStory" />
+
+            <EditText
+                android:id="@+id/edtInteressado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/necessidadeStory" />
+
+            <EditText
+                android:id="@+id/edtNecessidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/razaoStory" />
+
+            <EditText
+                android:id="@+id/edtRazao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/priorizacaoStory" />
+
+            <Spinner
+                android:layout_marginBottom="20dp"
+                android:id="@+id/spPriorizacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/priorizacao"
+                 />
+
+            <CheckBox
+                android:layout_marginTop="20dp"
+                android:id="@+id/cbRevisado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Revisada" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="salvar"
+                android:text="Salvar" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

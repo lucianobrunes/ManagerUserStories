@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cadastro de User Stories</string>
+    <string name="menu_add">Adicionar</string>
+    <string name="menu_relatorios">Relatórios</string>
+    <string name="tituloStory">Título da Story:</string>
+    <string name="interessadoStory">Como um(a):</string>
+    <string name="necessidadeStory">Eu necessito:</string>
+    <string name="razaoStory">Para que eu possa:</string>
+    <string name="btnSalvar">Salvar</string>
+    <string name="priorizacaoStory">Priorização (MoSCoW)</string>
+
+    <string-array name="priorizacao">
+        <item>Deve ter (Must)</item>
+        <item>Deveria ter (Should)</item>
+        <item>Poderia ter (Could)</item>
+        <item>Por enquanto não (Won't)</item>
+    </string-array>
+
+</resources>
